@@ -1,0 +1,83 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+body, head, html{
+	background-image: url(../background.png);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.title{
+	position: fixed;
+	top: 0;
+	background-color: #37393d;
+	width: 100%;
+	text-align: center;
+}
+
+.wptitle{
+	margin: 10px;
+	font-size: 30px;
+	font-weight: 500;
+	color: #ebedf2;
+}
+
+.menu{
+	background-color: #43474d;
+	margin-top: 53px;
+	width: 100%;
+	text-align: center;
+	line-height: 55px;
+}
+
+.menu a{
+	text-align: center;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	padding-left: 30px;
+	padding-right: 30px;
+	color: #ebedf2;
+	font-size: 20px;
+	text-decoration: none;
+	border-radius: 5px;
+}
+
+.menu a:hover{
+	background-color: #1c1d1f;
+}
+
+.active{
+	background-color: #17181a;
+	border-radius: 5px;
+	padding: 16px;
+}
+
+.main{
+	text-align: center;
+	background-color: #e9edf5;
+	padding: 20px;
+	width: 60%;
+	margin: auto;
+	margin-top: 4%;
+	border-radius: 10px;
+}
+
+h2{
+	font-size: 30px;
+	padding: 15px;
+	font-weight: 500;
+}
+
+p{
+	text-align: left;
+	font-size: 20px;
+	padding: 10px;
+	line-height: 30px;
+	color: #171717;
+	font-family: Arial, serif;
+}
