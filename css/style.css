@@ -82,3 +82,17 @@ p{
 	color: #171717;
 	font-family: Arial, serif;
 }
+
+.downloadButton{
+	padding: 20px 50px 20px 50px;
+	color: white;
+	background-color: #258fb9;
+	border: none;
+	border-radius: 5px;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+.downloadButton:hover {
+  background-color: #11629a;
+}
