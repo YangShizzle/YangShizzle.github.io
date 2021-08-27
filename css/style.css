@@ -66,6 +66,7 @@ body, head, html{
 	margin: auto;
 	margin-top: 4%;
 	border-radius: 10px;
+	overflow: auto;
 }
 
 h2{
@@ -91,9 +92,13 @@ p{
 	border-radius: 5px;
 	font-size: 20px;
 	cursor: pointer;
+	text-align: center;
+	margin-top: 10px;
+	margin-left: 20%;
+	float: left;
 }
 
-.downloadButton:hover {
+.downloadButton:hover, .emailButton:hover{
   background-color: #11629a;
 }
 
@@ -104,4 +109,18 @@ p{
 	border-radius: 50%;
 	padding:0;
 	margin:0;
+}
+
+.emailButton{
+	padding: 20px 50px 20px 50px;
+	color: white;
+	background-color: #258fb9;
+	border: none;
+	border-radius: 5px;
+	font-size: 20px;
+	cursor: pointer;
+	text-align: center;
+	margin-top: 10px;
+	margin-right: 20%;
+	float: right;
 }
