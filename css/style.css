@@ -84,8 +84,8 @@ p{
 	font-family: Arial, serif;
 }
 
-.downloadButton{
-	padding: 20px 50px 20px 50px;
+.downloadButton, .emailButton{
+	padding: 2% 5% 2% 5%;
 	color: white;
 	background-color: #258fb9;
 	border: none;
@@ -94,8 +94,6 @@ p{
 	cursor: pointer;
 	text-align: center;
 	margin-top: 10px;
-	margin-left: 20%;
-	float: left;
 }
 
 .downloadButton:hover, .emailButton:hover{
@@ -112,15 +110,11 @@ p{
 }
 
 .emailButton{
-	padding: 20px 50px 20px 50px;
-	color: white;
-	background-color: #258fb9;
-	border: none;
-	border-radius: 5px;
-	font-size: 20px;
-	cursor: pointer;
-	text-align: center;
-	margin-top: 10px;
-	margin-right: 20%;
+	margin-right: 10vw;
 	float: right;
+}
+
+.downloadButton{
+	margin-left: 10vw;
+	float: left;
 }
